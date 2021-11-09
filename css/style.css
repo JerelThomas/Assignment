@@ -1,0 +1,373 @@
+*
+{
+    padding: 0;
+    margin: 0
+}
+
+.nav li
+{
+    display: inline-block;
+    padding: 15px 25px 20px 30px;
+    
+}
+
+.nav
+{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color:#2f2e2e;
+    position:fixed;
+    width: 100%;
+    top: 0%;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight:lighter;
+}
+
+p
+{
+    font-family: 'Segoe UI';
+}
+
+h1
+{
+    font-family: 'Segoe UI';
+}
+
+h2
+{
+    font-family: 'Segoe UI';
+}
+
+h3
+{
+    font-family: 'Segoe UI';
+}
+
+form
+{
+    font-family: 'Segoe UI'
+}
+
+#logo
+{
+    height: 100px;
+    object-fit: cover;
+    margin: 50px 0 10px 0;
+}
+
+#section-1 h1
+{
+   font-size: 40px;
+   color: white;
+}
+
+#section-1 h3
+{   
+    font-weight: lighter;
+    font-size: x-large;
+    color: white;
+}
+
+.grid-3col
+{
+    display: grid;
+    grid-template-rows: 3fr;
+    justify-items: center;
+    align-items: center;
+    margin: 49px 0 0 0;
+    
+}
+
+i
+{
+    color: white;
+    padding: 500px 0 50px 0;
+    font-size: xx-large;
+}
+
+
+#section-1
+{
+    background-image: url(../img/calvin-dahne-WX9bvBTUzB4-unsplash.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.center
+{
+    text-align: center;
+}
+
+.grid-coloum3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+
+#section-2 h2
+{
+    padding: 125px 0 30px 0 ;
+    font-weight:normal;
+    font-size: xx-large;
+}
+
+#section-2 p
+{
+    width: 175px;
+    padding: 20px 0 0 0 ;
+    color: white;
+}
+
+#section-2 h1
+{
+    font-weight: normal;
+    color: white;
+}
+
+#section-2 h2
+{
+    color: white;
+}
+
+#section-2
+{
+    height: 800px;
+    background-image: url(../img/peter-gargiulo-cGNCepznaV8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.bottom_border
+{
+    font-weight: normal;
+    font-size: xx-large;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    display: inline-block;
+    margin-bottom: 28px;
+    
+}
+
+.grid-1col
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#section-2 img
+{
+    height: 150px;
+}
+
+.font-size-bigger
+{
+    font-size:larger ;
+    font-weight: lighter;
+}
+
+.col3-2row
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 60px;
+}
+
+#section-3 img
+{
+    height:345px;
+    width: 465px;
+}
+
+#section-4
+{
+    height:750px; 
+    background-image: url(../img/annie-spratt-yI3weKNBRTc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.grid-1col-sec4
+{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 475px;
+    padding: 60px 90px;
+    background-color: white;
+}
+
+.center-sec4
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+
+#section-5
+{
+    height:600px; 
+    background-image: url(../img/johnson-wang-iI4sR_nkkbc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#section-6
+{
+    padding: 100px 0 0 0;
+    height:950px; 
+    background-image: url(../img/annie-spratt-yI3weKNBRTc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.col2-1row
+{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    
+}
+
+input
+{
+    width: 300px;
+}
+
+#mess
+{
+    height: 100px;
+}
+
+#buttom
+{
+    color: white;
+    border: 2px;
+    border: solid;
+    display: inline-block;
+    margin: 18px 0 0 0;
+    border-color: #2f2e2e;
+    background-color: #2f2e2e;
+    padding: 2px 122px;
+}
+
+
+#bc-white
+{
+    background-color: white;
+    width: 700px;
+    padding: 60px 0 80px 0;
+}
+
+#footer-bc
+{
+    background-color: #2f2e2e;
+    color: white;
+    padding: 50px 0;
+
+}
+
+#footer-bc i 
+{
+    padding: 0;
+    text-align: center;
+}
+
+.booking-nav
+{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color:#2f2e2e;
+    
+}
+
+.booking-nav li
+{
+    display: inline-block;
+    padding: 15px 25px 20px 30px;
+}
+
+#img-booking
+{
+    height: 300px;
+    
+}
+
+.grid-1col-booking
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    padding:60px 0 ;
+}
+
+#border-booking
+{
+    
+    border: 2px;
+    border-style: ridge;
+    border-color: #2f2e2e;
+    
+    
+}
+
+#button-booking
+{
+    color: white;
+    border: 2px;
+    border: solid;
+    display: inline-block;
+    margin: 18px 0 0 0;
+    border-color: #2f2e2e;
+    background-color: #2f2e2e;
+    padding: 10px 15px;
+}
+
+.footer-booking
+{
+    text-align: center;
+    padding: 8px 0 8px 0 ;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
